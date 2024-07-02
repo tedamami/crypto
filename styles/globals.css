@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  html,
+  body {
+    height: 100%;
+    font-size: 18px;
+    background-color: black;
+    font-family: 'Roboto';
+  }
+
+  #__next {
+    height: 100%;
+    background-color: black;
+  }
+  p {
+    color: #8bacda;
+  }
+}
